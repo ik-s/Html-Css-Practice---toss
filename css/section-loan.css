@@ -1,6 +1,5 @@
 .loan-wrap {
     position: relative;
-    border-top: 1px solid #000;
 }
 
 .loan {
@@ -58,4 +57,19 @@
     font-size: 23px;
     font-weight: 500;
     color: rgb(51, 61, 75);
+    width: 500px;
+}
+
+.loan-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 40px;
+}
+
+.loan-right .loan-phone-screen {
+    position: absolute;
+    top: 98px;
+    left: 130px;
+    border-radius: 40px;
 }

@@ -34,6 +34,10 @@
     transition-delay: 0.8s;
 }
 
+.home-text-box2 {
+    transition-delay: 0.3s;
+}
+
 .box1-title {
     font-size: 28px;
     font-weight: 700;
