@@ -17,11 +17,6 @@
     margin: 0 auto;
 }
 
-
-.invest-wrap {
-    height: 2000px;
-}
-
 .invest-box1-title {
     font-size: 28px;
     font-weight: 600;
@@ -50,7 +45,8 @@
     border-radius: 44px;
 }
 
-.invest-text-box2, .invest-text-box3 {
+.invest-text-box2,
+.invest-text-box3 {
     position: absolute;
     font-size: 23px;
     font-weight: 600;
@@ -74,5 +70,42 @@
     font-weight: 600;
     line-height: 1.5;
     margin-top: 20px;
+    margin-bottom: 100px;
     color: rgb(51, 61, 75);
+}
+
+.invest-img-wide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url(../img/section-invest/invest2.jpg);
+    background-size: cover;
+    /* 또는 contain, 100% 100% */
+    background-position: center;
+    /* 중앙 정렬 */
+    background-repeat: no-repeat;
+    /* 반복 없음 */
+}
+
+.invest-img-text1 {
+    font-size: 80px;
+    color: white;
+}
+
+.img-left-block, .img-right-block {
+    position: absolute;
+    width: calc((100vw - 1040px) / 2);
+    height: 100%;
+    top: 0;
+    background-color: white;
+}
+
+.img-left-block {
+    left: 0;
+}
+
+.img-right-block {
+    right: 0;
 }

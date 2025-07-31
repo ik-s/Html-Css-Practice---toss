@@ -1,4 +1,92 @@
 .pay-wrap {
+    width: 100%;
     background: #f9fafb;
-    height: 1400px;
+    height: 1687px;
+}
+
+.pay-wrap {
+    position: relative;
+}
+
+.pay {
+    max-width: 1140px;
+    height: 100%;
+    padding: 240px 0 165px 0;
+    margin: 0 auto;
+}
+
+.pay-inner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 92%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.pay-img-right,
+.pay-img-left {
+    position: absolute;
+    width: 600px;
+    height: 936px;
+}
+
+.pay-img-right {
+    top: 0px;
+    right: -104px;
+}
+
+.pay-img-left {
+    bottom: 0px;
+    left: -104px;
+}
+
+.pay-phone {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.pay-screen1 {
+    position: absolute;
+    top: 10.5%;
+    left: 21.5%;
+    width: 57%;
+    height: auto;
+    border-radius: 59px;
+    margin-top: 1px;
+}
+
+.pay-screen2 {
+    position: absolute;
+    top: 10.5%;
+    left: 21.5%;
+    width: 57%;
+    height: auto;
+    border-radius: 59px;
+    margin-top: 1px;
+}
+
+.pay-text-box2, .pay-text-box3 {
+    position: absolute;
+}
+
+.pay-text-box2 {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.5;
+    position: absolute;
+    top: 267px;
+    left: 4px;
+    color: rgb(78, 89, 104);
+}
+
+.pay-text-box3 {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.5;
+    position: absolute;
+    bottom: 240px;
+    right: 75px;
+    color: rgb(78, 89, 104);
 }
