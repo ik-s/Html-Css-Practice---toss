@@ -1,5 +1,56 @@
-.remit {
+.remit-wrap {
     width: 100%;
     height: 2310px;
     background: #f9fafb;
 }
+
+.remit {
+    max-width: 1140px;
+    padding: 240px 0 165px 0;
+    margin: 0 auto;
+    height: 1677px;
+}
+
+.remit-inner {
+    position: relative;
+    width: 92%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.remit-text-box1 {
+    margin-bottom: 100px;
+}
+
+.remit-box2, .remit-box3, .remit-box4 {
+    padding-left: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.remit-box3 {
+    padding-left: 0px !important;
+}
+
+.box2-title, .box3-title, .box4-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #3182f6;
+    margin-bottom: 10px;
+}
+
+.box2-text, .box3-text, .box4-text {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.box2-text-sub, .box3-text-sub, .box4-text-sub {
+    color: #6B7684;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* space-between & mb 150px */
