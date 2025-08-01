@@ -142,3 +142,13 @@
     color: #333d4b;
     word-spacing: -2px;
 }
+
+.f-img2,
+.finance-imgAndtext,
+.finance-text5,
+.finance-img4,
+.finance-text-6to7 {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}

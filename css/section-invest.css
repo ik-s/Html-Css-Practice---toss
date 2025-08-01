@@ -109,3 +109,13 @@
 .img-right-block {
     right: 0;
 }
+
+.invest-text-box1,
+.invest-phone-box,
+.invest-text-box2,
+.invest-text-box3,
+.invest-text-box4 {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}

@@ -90,3 +90,13 @@
     right: 75px;
     color: rgb(78, 89, 104);
 }
+
+.pay-text-box1,
+.pay-img-right,
+.pay-text-box2,
+.pay-img-left,
+.pay-text-box3 {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}

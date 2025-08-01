@@ -100,3 +100,11 @@
 .tossplace-button:hover {
     background-color: rgb(27, 100, 218);
 }
+
+.business-title,
+.business-title-sub-box,
+.business-nav {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}

@@ -73,3 +73,10 @@
     line-height: 1.5;
     color: rgb(107, 118, 132);
 }
+
+.score-text-box1,
+.grid-item-box {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
