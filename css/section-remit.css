@@ -32,6 +32,15 @@
     margin-bottom: 150px;
 }
 
+.remit-text-box1,
+.remit-box2,
+.remit-box3,
+.remit-box4 {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
 .remit-box3 {
     padding-left: 0px !important;
 }

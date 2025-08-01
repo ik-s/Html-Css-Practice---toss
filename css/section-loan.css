@@ -73,3 +73,12 @@
     left: 130px;
     border-radius: 40px;
 }
+
+.loan-left-top,
+.loan-right,
+.left-bottom-text,
+.left-bottom-sub {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
